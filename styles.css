@@ -1,3 +1,7 @@
+.contact-header {
+  margin-left: 30%;
+}
+
 .nav-contact {
   display: flex;
   justify-content: space-between;
@@ -5,10 +9,15 @@
   width: 500px;
   margin-right: 15%;
 }
+.header__menu {
+  display: flex;
+  align-items: center;
+}
 
 .header__menu ul {
   list-style: none;
   display: flex;
+  margin: 0;
 }
 .header__menu ul li {
   margin-left: 20px;
@@ -22,6 +31,10 @@
 .header__menu ul li:hover > div {
   position: absolute;
   display: grid;
+}
+
+.header_logo {
+  margin-left: 100px;
 }
 
 .dropdown-collections {
@@ -44,4 +57,18 @@
 
 .dropdown-collection {
   margin: 10px;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.header-icon {
+  margin-left: 10px;
+}
+
+#uk-flag {
+  width: 20px;
 }
