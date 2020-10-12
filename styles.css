@@ -1,0 +1,35 @@
+.nav-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  margin-right: 15%;
+}
+
+.header__menu ul {
+  list-style: none;
+  display: flex;
+}
+.header__menu ul li {
+  margin-left: 20px;
+  position: relative;
+}
+
+.header__menu ul ul {
+  display: none;
+}
+
+.header__menu ul li:hover > div {
+  position: absolute;
+  display: grid;
+}
+
+.dropdown-collections {
+  width: 800px;
+  grid-template-columns: repeat(3, 1fr);
+  display: none;
+}
+/* .dropdown-collections:hover {
+  display: block;
+  position: absolute;
+} */
