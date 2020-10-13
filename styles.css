@@ -1,5 +1,5 @@
 .header-container {
-  min-width: 1550px;
+  /* min-width: 1550px; */
 }
 .contact-header {
   margin-left: 30%;
@@ -16,13 +16,21 @@
 }
 .nav-contact span {
   font-size: 14px;
+  color: #a6a6aa; ;
 }
 .nav-contact a {
   font-size: 15px;
+  color: #72b3e2;
 }
 .nav-login {
+    display: flex;
   margin-left: 10px;
 }
+.nav-login span {
+    color: black;
+    font-weight: 500;
+    margin-left: 5px;
+  }
 
 header {
   margin-bottom: 20px;
@@ -60,7 +68,7 @@ header {
 
 .collection-container {
   font-size: 16px;
-  width: 165px;
+  width: 145px;
 }
 .collection-container > a:nth-child(1) {
   margin: 0;
@@ -177,6 +185,34 @@ header {
   margin-left: 20px;
 }
 
+@media only screen and (max-width: 1281px) {
+    .header_logo{
+        margin: 0;
+    }
+    .collection-container {
+        width: 120px;
+      }
+    #navbarTogglerDemo02 ul a{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact-header,
+  .header-icons {
+    display: none;
+  }
+  .navbar-collapse-icons{
+    font-size: 22px;
+    display: block;
+  }
+  #navbarTogglerDemo02 ul a {
+    margin: 0;
+}
+.fa-chevron-down{
+    display: none!important;
+}
+}
 @media only screen and (max-width: 992px) {
   .header-container {
     min-width: 0;
@@ -192,17 +228,11 @@ header {
   div.col-lg-12:nth-child(2) {
     padding: 0;
   }
-  .contact-header,
-  .header-icons {
-    display: none;
-  }
+
   .header_logo {
      margin-left: 0;
   }
-  .navbar-collapse-icons{
-    font-size: 22px;
-    display: block;
-  }
+
 }
 
 @media only screen and (max-width: 572px) {
