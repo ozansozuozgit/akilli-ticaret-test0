@@ -1,3 +1,6 @@
+.header-container {
+  min-width: 1550px;
+}
 .contact-header {
   margin-left: 30%;
   margin-bottom: 20px;
@@ -59,6 +62,11 @@ header {
   margin-left: 100px;
 }
 
+.collection-container {
+    font-size: 16px;
+    width: 140px;
+  }
+
 .dropdown-collections {
   width: 800px;
   grid-template-columns: repeat(3, 1fr);
@@ -112,6 +120,38 @@ header {
   height: 100%;
 }
 
+.discounts div h2 {
+  font-size: 26px;
+}
+.discounts div p {
+  font-size: 14px;
+}
+.discount-container {
+  padding: 0;
+}
+.discount-img-container {
+  position: relative;
+}
+.discount-image {
+  padding: 0;
+  height: 400px;
+}
+.discount-review {
+  position: absolute;
+}
+.discount-btn-container {
+  font-weight: lighter;
+  display: inline-block;
+  position: absolute;
+  padding: 10px 12px;
+  right: 13%;
+  top: 3%;
+}
+.discount-btn-container a {
+  text-decoration: none;
+  color: white;
+}
+
 @media only screen and (max-width: 992px) {
   .md-images {
     padding-top: 15px;
@@ -127,6 +167,9 @@ header {
 }
 
 @media only screen and (max-width: 572px) {
+  #large-slider-img {
+    height: 400px;
+  }
   .md-images {
     padding: 0;
     max-width: 560px;
@@ -142,4 +185,12 @@ header {
   div.col-lg-12:nth-child(2) {
     padding: 0;
   }
+  div.col-lg-12:nth-child(2) {
+    padding-top: 10px !important;
+  }
+}
+
+
+
+.header-menu > ul:nth-child(1) > li:nth-child(1) > div:nth-child(1) {
 }

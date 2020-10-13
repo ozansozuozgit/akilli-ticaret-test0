@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <header class="">
-        <div class="container-fluid">
+    <header>
+        <div class="container-fluid header-container">
             <div class="row flex-row-reverse p-2 contact-header">
                 <div class="text-secondary nav-contact">
                     <i class="fab fa-facebook-f"></i>
@@ -34,7 +34,7 @@
                     <nav class="header-menu">
                         <ul>
                             <li>
-                                <div>
+                                <div class="collection-container">
                                     <a href="#">KOLEKSIYONLAR</a>
                                     <i class="fas fa-chevron-down"></i>
                                 </div>
@@ -109,21 +109,28 @@
         </div>
     </section>
 
-    <section class="discounts  text-center">
-        <div class="container-fluid">
+    <section class="discounts text-center">
+        <div class="container-fluid discount-container">
             <h2 class="mt-5">550'den fazla eviye cesidi</h2>
             <p class="text-secondary">Paslanmaz celik, granit ve cam eviye cesitleri ile sizlere genis urun
                 yelpazesi
                 sunuyoruz</p>
-            <img class="col-md-10 col-xs-12"
-                src="https://www.polishnews.co.uk/wp-content/uploads/2020/09/1600954336_LANDSCAPE_1280.jpeg"
-                alt="household-discount">
+            <div class="discount-img-container">
+                <img class="col-md-11 col-xs-12 discount-image"
+                    src="https://www.polishnews.co.uk/wp-content/uploads/2020/09/1600954336_LANDSCAPE_1280.jpeg"
+                    alt="household-discount">
+                <div class="bg-danger text-light discount-btn-container">
+                    <a href="">Kampanyalari incele
+                        <i class="fas fa-chevron-right ml-2 "></i>
+                    </a>
+                </div>
+            </div>
+
         </div>
     </section>
 
 
     <script src="https://kit.fontawesome.com/ba3bb875a0.js" crossorigin="anonymous"></script>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -133,7 +140,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="/scripts.js"></script>
 </body>
 
