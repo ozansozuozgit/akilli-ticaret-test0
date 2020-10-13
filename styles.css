@@ -168,6 +168,15 @@ header {
   justify-content: flex-end;
 }
 
+.navbar-collapse-icons{
+  font-size: 22px;
+  display: none;
+}
+
+.fa-shopping-bag {
+  margin-left: 20px;
+}
+
 @media only screen and (max-width: 992px) {
   .header-container {
     min-width: 0;
@@ -186,6 +195,13 @@ header {
   .contact-header,
   .header-icons {
     display: none;
+  }
+  .header_logo {
+     margin-left: 0;
+  }
+  .navbar-collapse-icons{
+    font-size: 22px;
+    display: block;
   }
 }
 
@@ -212,3 +228,4 @@ header {
     padding-top: 10px !important;
   }
 }
+x
