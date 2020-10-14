@@ -1,6 +1,7 @@
-.header-container {
-  /* min-width: 1550px; */
+a:hover{
+opacity: 0.7;
 }
+
 .contact-header {
   margin-left: 30%;
   margin-bottom: 20px;
@@ -14,11 +15,14 @@
   width: 550px;
   font-size: 20px;
 }
+.nav-contact i {
+    color: gray;
+  }
 .nav-contact span {
   font-size: 14px;
   color: #a6a6aa; ;
 }
-.nav-contact a {
+.nav-site {
   font-size: 15px;
   color: #72b3e2;
 }
@@ -86,6 +90,11 @@ header {
   background-color: white;
 }
 
+.dropdown-collection:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
 .dropdown-collections img {
   max-width: 50px;
 }
@@ -104,6 +113,10 @@ header {
   font-size: 20px;
   margin-right: 145px;
 }
+
+.header-icons:hover {
+    cursor: pointer;
+  }
 
 .header-icon {
   margin-left: 10px;
